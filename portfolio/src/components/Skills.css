@@ -1,0 +1,74 @@
+.skills {
+    padding: 40px 0;
+}
+
+.skills-container {
+    display: flex;
+    gap: 40px;
+}
+
+.skills-column {
+    flex: 1;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.skill-name {
+    font-weight: 600;
+}
+
+.skill-percentage {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+}
+
+.skill-progress.non-technical {
+    background-color: var(--secondary-color);
+}
+
+
+/* Animation for skill bars on load */
+
+@keyframes progressAnimation {
+    from {
+        width: 0;
+    }
+}
+
+.skill-progress {
+    animation: progressAnimation 1.5s ease-out forwards;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
