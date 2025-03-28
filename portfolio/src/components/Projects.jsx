@@ -11,8 +11,8 @@ const Projects = () => {
       image: "portfolio.jpg",
       status: "Completed",
       tech: ["React", "CSS", "Responsive Design"],
-      github: "https://github.com/1Sury",
-      demo: null,
+      github: "https://portfolio-rgbe.vercel.app/",
+      demo: "https://portfolio-rgbe.vercel.app/",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const Projects = () => {
       image: "task-management.jpg",
       status: "Completed",
       tech: ["React", "Redux", "Authentication"],
-      github: "https://github.com/1Sury",
+      github: "https://github.com/1Sury/todo-List",
       demo: "https://todo-list-seven-sable-52.vercel.app/",
     },
     {
@@ -33,7 +33,7 @@ const Projects = () => {
       image: "react-assignment.jpg",
       status: "Completed",
       tech: ["React", "CSS", "State Management"],
-      github: null,
+      github: "https://github.com/1Sury/React-assignment",
       demo: "https://react-assignment-six-sage.vercel.app/",
     },
   ];
