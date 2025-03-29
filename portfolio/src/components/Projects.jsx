@@ -11,7 +11,7 @@ const Projects = () => {
       image: "portfolio.jpg",
       status: "Completed",
       tech: ["React", "CSS", "Responsive Design"],
-      github: "https://portfolio-rgbe.vercel.app/",
+      github: "https://github.com/1Sury/Portfolio",
       demo: "https://portfolio-rgbe.vercel.app/",
     },
     {
